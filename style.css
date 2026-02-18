@@ -296,29 +296,29 @@ body {
    ======================================================= */
 @media screen and (max-width: 768px) {
     
-    /* 1. Thanh điều hướng (Navigation) */
+    /* 1. (Navigation) */
     .nav {
-        flex-direction: column; /* Xếp logo và menu thành hàng dọc */
+        flex-direction: column; 
         align-items: center;
         padding: 15px;
         gap: 15px;
     }
     
     .nav ul {
-        flex-wrap: wrap; /* Cho phép các menu rớt dòng nếu thiếu chỗ */
+        flex-wrap: wrap; 
         justify-content: center;
         padding: 0;
         gap: 15px;
     }
 
-    /* 2. Phần Trang chủ (Hero Section) */
+    /* 2. (Hero Section) */
     .home-hero {
-        height: auto; /* Bỏ chiều cao cố định để nội dung không bị cắt */
+        height: auto; 
         padding: 40px 20px;
     }
 
     .hero-content {
-        flex-direction: column-reverse; /* Đưa ảnh lên trên, chữ xuống dưới */
+        flex-direction: column-reverse; 
         text-align: center;
         gap: 30px;
     }
@@ -326,50 +326,50 @@ body {
     .hero-text {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Căn giữa nút bấm và icon */
+        align-items: center; 
     }
 
     .hero-text h2 {
-        font-size: 2rem; /* Thu nhỏ chữ tiêu đề */
+        font-size: 2rem; 
     }
 
     .profile-img {
-        width: 220px; /* Thu nhỏ ảnh đại diện */
+        width: 220px;
         height: 220px;
         border-width: 6px;
     }
 
-    /* 3. Phần About (Giới thiệu) */
+    /* 3.  About */
     .about-flex {
-        flex-direction: column; /* Chuyển text và meta (địa chỉ, ngôn ngữ) thành hàng dọc */
+        flex-direction: column; 
         padding: 20px;
     }
 
-    /* 4. Phần Skills (Kỹ năng) */
+    /* 4.Skills  */
     .skills-grid {
-        /* Ép lưới chỉ hiển thị 1 cột trên điện thoại để không bị tràn ngang */
+
         grid-template-columns: 1fr; 
     }
 
-    /* 5. Phần Projects (Dự án) */
+    /* 5. Projects  */
     .project-item-detail {
-        padding: 20px; /* Giảm padding hai bên */
+        padding: 20px; 
     }
 
     .project-content-box h3 {
         font-size: 1.5rem;
     }
 
-    /* 6. Phần Gallery các Round trong Project */
+    /* 6. Gallery Project */
     .gallery-item {
-        flex-direction: column; /* Đưa ảnh lên trên, chữ mô tả xuống dưới */
+        flex-direction: column; 
         text-align: center;
         padding: 15px 10px;
     }
 
     .gallery-item img {
-        flex: auto; /* Bỏ giới hạn 70% chiều rộng */
-        width: 100%; /* Cho ảnh chiếm trọn chiều ngang */
+        flex: auto; 
+        width: 100%;
         max-width: 100%;
         margin-bottom: 15px;
     }
@@ -455,20 +455,5 @@ body {
         width: 100%;
         max-width: 100%;
         margin-bottom: 15px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .nav ul {
-        gap: 10px;
-        font-size: 0.9rem;
-    }
-    
-    .hero-text h2 {
-        font-size: 1.8rem;
-    }
-    
-    .section-title {
-        font-size: 1.5rem;
     }
 }

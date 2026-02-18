@@ -22,6 +22,8 @@ const detailedProjects = [
             }
         ],
         link: "https://forge.univ-lyon1.fr/p2303609/lifprojet.git" ,
+        },
+        {
         title: "Binarisation par Coupe de Graphe (Encrage)",
         category: "Algorithmique & Data",
         date: "Novembre 2025 – Décembre 2025",
