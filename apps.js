@@ -11,7 +11,7 @@ const detailedProjects = [
         details: [
             "Interface web pour l'interrogation filtrée de bases de données.",
             "Backend Flask et traitement de données via Pandas.",
-            "Module Thermodynamique : calcul du $\\Delta G$ et graphiques interactifs (Plotly/Dash).",
+            "Module Thermodynamique : calcul du Delta G et graphiques interactifs (Plotly/Dash).",
             "En cours : Cinétique enzymatique et export (CSV/JSON/SBML)."
         ],
         rounds: [
