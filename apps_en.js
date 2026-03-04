@@ -21,7 +21,7 @@ const detailedProjects = [
                 text: "Interactive Plotly visualization identifying spontaneous reactions (green) and bottlenecks requiring energy input (red)." 
             }
         ],
-        link: "#" 
+        link: "https://forge.univ-lyon1.fr/p2303609/lifprojet.git" 
     },
     {
         title: "Graph Cut Image Binarization",
